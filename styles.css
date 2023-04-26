@@ -13,6 +13,7 @@ h1 {
   width: 55vw;
   padding-top: 45px;
   padding-left: 10px;
+  color: aliceblue;
 }
 
 h3 {
@@ -23,9 +24,10 @@ h3 {
 }
 
 a {
-  padding-left: 15px;
-  font-size: 10px;
+  font-size: 15px;
   display: inline-block;
+  text-decoration: none;
+  color: rgb(217, 213, 220);
 }
 
 p {
@@ -56,6 +58,7 @@ div p {
 }
 
 .list-status {
+  color: aliceblue;
   width: 175px;
 }
 
@@ -69,6 +72,7 @@ button {
 
 label {
   display: block;
+  margin-top: 5px;
 }
 
 .submit {
