@@ -1,0 +1,93 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 1.6rem;
+  width: 55vw;
+  padding-top: 45px;
+  padding-left: 10px;
+  color: aliceblue;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+a {
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(217, 213, 220);
+}
+
+p {
+  display: flex;
+  width: 200px;
+  margin: 0px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+div p {
+  display: inline-block;
+}
+
+.navigation {
+  display: inline-block;
+  background-color: rgb(40, 153, 137);
+  width: 100vw;
+  height: 15vh;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(68, 160, 128);
+  height: 10vh;
+  width: 100vw;
+}
+
+.list-status {
+  color: aliceblue;
+  width: 175px;
+}
+
+button {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+}
+
+.submit {
+  margin-top: 15px;
+  padding: 10px;
+  size: 40px;
+}
+
+.panel {
+  padding: 15px;
+  background-color: rgb(254, 200, 68);
+  height: 75vh;
+  width: 100vw;
+}
+
+label {
+  font-size: 25px;
+}
